@@ -9,7 +9,7 @@ Update your settings file (or provide these [manually](#startup)):
 {
   "public" : {
     "ga" : {
-      "trackingId": "UA-XXXXXX-01",
+      "trackingId": "UA-000000-01",
       "options": {
           "debug": true
       },
@@ -21,9 +21,9 @@ Update your settings file (or provide these [manually](#startup)):
 
 property | required | notes
 | --- | --- | --- |
-**trackingId** | yes | format: `UA-XXXXXX-XX`
-**options** | no
-**optIn** | no | Set to `true` if you want users to opt-in.<br>_You currently need to build the opt-in modal yourself._
+trackingId | yes | format: `UA-XXXXXX-XX`
+options | no
+optIn | no | Set to `true` if you want users to opt-in.<br>_You currently need to build the opt-in modal yourself.[*](#opt-in)_
 
 ## Usage
 
