@@ -1,6 +1,6 @@
 Package.describe({
   name: 'lef:analytics',
-  version: '2.0.0',
+  version: '2.0.1',
   summary: 'Google Analytics 4 Wrapper'
 })
 
